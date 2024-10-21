@@ -1,6 +1,5 @@
-a = int(input("Dime un número entero: "))
-b = int(input("Dime un número entero: "))
-if a < b:
-    print(a)
-else:
-    print(b)
+def saludar(nombre):
+    print("Hola,", nombre)
+
+nombre = input("¿Cómo te llamas? ") # No tiene por qué llamarse igual, pero puede hacerse ÁMBITO
+saludar("Ana")
